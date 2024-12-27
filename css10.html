@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .d7{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid black;
+            padding: 10px;
+            background-color: red;
+        }
+        .div1{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            flex-wrap: wrap;
+            gap: 5px;
+            background-color: black;
+        }
+        .div1 div{
+            display: flex;
+            border: 4px solid aqua;
+            height: 200px;
+            width: 300px;
+            border-radius: 8px;
+            
+        }
+        .div1,.div2,.div3{
+            border: 2px solid black;
+        }
+        
+        .div2{
+            display: flex;
+        gap: 100px;
+            padding: 10px;
+            flex-wrap: wrap;
+            background-color: aqua;
+
+        }
+        .div2 div{
+            display: flex;
+            border: 4px solid black;
+            height: 675px;
+            width: 600px;
+            border-radius: 8px;
+           
+        }
+        .div2_2{
+            flex-grow: 1;
+        }
+        .div3 div{
+            display: flex;
+            border: 4px solid aqua;
+            height: 275px;
+            width: 450px;
+            border-radius: 8px;
+            
+        }
+        .div3{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            flex-wrap: wrap;
+            background-color:black;
+        }
+        .div1 img{
+            height: 200px;
+            width: 300px;
+            align-items: center;
+        }
+        .div3 img{
+            height: 275px;
+            width: 450px;
+        }
+        .div2 img{
+            height: 675px;
+            width: 600px;
+        }
+        .div2_2 img{
+           width: 1600px;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <div class="d7">
+      <div class="div1">
+        <div class="div1_1"><img src="./hitman.jfif" alt=""></div>
+        <div class="div1_2"><img src="./jaiswal.jfif" alt=""></div>
+        <div class="div1_3"><img src="./virat.jfif" alt=""></div>
+        <div class="div1_4"><img src="./pant.avif" alt=""></div>
+      </div>
+      <div class="div2">
+        <div class="div2_1"><img src="./rahul.jpg" alt=""></div>
+        <div class="div2_2"><img src="./dhoni-2016-getty_1654515327472_1657137509048.avif" alt=""></div>
+        <div class="div2_3"><img src="./jadeja.jpg" alt=""></div>
+      </div>
+      <div class="div3">
+        <div class="div3_1"><img src="./kumar.jfif" alt=""></div>
+        <div class="div3_2"><img src="./shami.jpg" alt=""></div>
+        <div class="div3_3"><img src="./bumrah.avif" alt=""></div>
+      </div>
+    </div>
+  </body>
+</html>
